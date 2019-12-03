@@ -1,0 +1,154 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ================================= */
+
+body {
+  font: 400 16px/22px "Lato", "Open Sans", "Heletica Neue", Helvetica, Arial,sans-serif;
+}
+
+nav li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(1, 111, 111);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+section {
+  padding: 35px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+p {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.para3 {
+  color: rgba(216, 216, 216, 0.988);
+}
+
+.first {
+  background-color: rgb(146, 199, 199);
+}
+
+.second {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(56, 62, 60, 0.831),
+    rgba(42, 43, 43, 0.927)
+  );
+  color: #d2d2d2;
+}
+
+.third {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(214, 145, 218),
+    rgb(149, 20, 155)
+  );
+}
+
+.four {
+  background-image: linear-gradient(to right bottom, #c1c0c0, #6c6c6c);
+}
+
+footer {
+  background-color: rgb(232, 90, 38);
+}
+
+footer nav {
+  display: block;
+  text-align: center;
+  background-color: rgb(232, 90, 38);
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.copy {
+  text-align: center;
+  padding-bottom: 15px;
+  color: rgb(245, 245, 245);
+}
+.img {
+  text-align: center;
+  padding-top: 10px;
+}
+.aboutfirst {
+  background-color: rgba(233, 150, 122, 0.817);
+}
+a:hover {
+  color: rgba(85, 237, 237, 0.934);
+  font-weight: 500;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.858);
+}
+.footer a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
